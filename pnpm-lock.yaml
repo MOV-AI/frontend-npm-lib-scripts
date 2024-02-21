@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@babel/core':
     specifier: ^7.20.12
@@ -2841,7 +2845,7 @@ packages:
       express: 4.18.2
       fs-extra: 11.1.1
       globby: 11.1.0
-      ip: 2.0.0
+      ip: 2.0.1
       lodash: 4.17.21
       node-fetch: 2.6.11
       open: 8.4.2
@@ -6715,8 +6719,8 @@ packages:
     engines: {node: '>=10.13.0'}
     dev: false
 
-  /ip@2.0.0:
-    resolution: {integrity: sha512-WKa+XuLG1A1R0UWhl2+1XQSi+fZWMsYKffMZTTYsiZaUD8k2yDAj5atimTUD2TZkyCkNEeYE5NhFZmupOGtjYQ==}
+  /ip@2.0.1:
+    resolution: {integrity: sha512-lJUL9imLTNi1ZfXT+DU6rBBdbiKGBuay9B6xGSPVjUeQwaH1RIGqef8RZkUtHioLmSNpPR5M4HVKJGm1j8FWVQ==}
     dev: false
 
   /ipaddr.js@1.9.1:
@@ -9038,6 +9042,7 @@ packages:
 
   /scheduler@0.23.0:
     resolution: {integrity: sha512-CtuThmgHNg7zIZWAXi3AsyIzA3n4xx7aNyjwC2VJldO2LMVDhFK+63xGqq6CsJH4rTAt6/M+N4GhZiDYPx9eUw==}
+    requiresBuild: true
     dependencies:
       loose-envify: 1.4.0
     dev: false
